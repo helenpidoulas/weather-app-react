@@ -1,0 +1,269 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {
+    display: block
+}
+
+audio,canvas,progress,video {
+    display: inline-block;
+    vertical-align: baseline
+}
+
+b,optgroup,strong {
+    font-weight: 700
+}
+
+img {
+    vertical-align: middle
+}
+
+svg:not(:root) {
+    overflow: hidden
+}
+
+
+pre,textarea {
+    overflow: auto
+}
+
+code,kbd,pre,samp {
+    font-size: 1em
+}
+
+button,input,optgroup,select,textarea {
+    margin: 0;
+    font: inherit;
+    color: inherit
+}
+
+button {
+    overflow: visible
+}
+
+button,select {
+    text-transform: none
+}
+
+button,
+html input[type=button],
+input[type=reset],
+input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer
+}
+
+button[disabled],
+html input[disabled] {
+    cursor: default
+}
+
+input[type=radio] {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0
+}
+
+*,:after,:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+html {
+    font-size: 14px;
+    -webkit-tap-highlight-color: transparent
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none
+}
+
+a:focus,a:hover {
+    color: #23527c;
+    text-decoration: underline
+}
+
+a:focus {
+    outline: dotted thin;
+    outline: -webkit-focus-ring-color auto 5px;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 1px solid #eee
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 700;
+    line-height: 1;
+    color: #313131;
+    margin: 15px 0 5px;
+    font-size: 16px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+.bg-primary {
+    color: #fff;
+    background-color: #337ab7
+}
+
+.container {
+    max-width: 700px;
+    border: 1px solid #ccc;
+    padding: 3em 4em;
+    margin: 3em auto;
+    border-radius: 5px;
+    background: rgba(204, 204, 204, 0.05);
+}
+
+.settings {
+	width: 45%;
+	display: inline-block;
+	border-right: 1px solid #ccc;
+}
+
+.weather {
+    float: right;
+    width: 50%;
+    background: #fff;
+    padding: 1.5em 2em;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+	-webkit-box-shadow: 0px 2px 4px 1px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 2px 4px 1px rgba(0,0,0,0.2);
+	box-shadow: 0px 2px 4px 1px rgba(0,0,0,0.2);    
+}
+
+.widget-title {
+    text-transform: uppercase;
+    color: #000;
+    font-size: 16px;
+}
+
+.weather-img {
+    float: left;
+    margin: 10px 15px 0 0;
+    width: 45%;
+}
+
+.location {
+    margin: 0;
+    padding: 1em 0 0;
+    font-size: 16px;
+    line-height: 1;
+}
+
+.description {
+    margin: 5px 0;
+}
+
+.wind {
+    font-size: 13px;
+    margin: 0 0 10px;
+}
+
+.temp {
+	font-weight: 800;
+    font-size: 40px;
+    line-height: 1;
+    letter-spacing: -4px;
+    margin: 5px 0;
+}
+
+
+abbr[data-original-title],
+abbr[title] {
+    cursor: help;
+    border-bottom: 1px dotted #777
+}
+
+fieldset,legend {
+    padding: 0;
+    border: 0
+}
+
+fieldset {
+    min-width: 0;
+    margin: 0
+}
+
+legend {
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: inherit;
+    border-bottom: 1px solid #e5e5e5
+}
+
+label {
+    cursor: pointer;
+    display: inline-block;
+    width: 30%;
+    margin: 0 15px;    
+}
+
+
+form {
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    display: block
+}
+
+
+
+form {
+    width: 100%;
+}
+
+input[type="text"] {
+	display: block;
+	width: 90%;
+    height: 34px;
+    padding: 6px 12px;
+    margin: 10px 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s	
+}
+
+
+textarea {
+    height: auto
+}
+
+
+button {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    border-radius: 4px
+}
